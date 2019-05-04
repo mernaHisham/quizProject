@@ -1,0 +1,36 @@
+.intro {
+    background: url('../imgs/pexels-photo-574285.jpeg') no-repeat center top;
+   background-size: cover;
+   padding: 70px 0px 0px 0px;
+}
+.intro h3{
+    color: white;
+    font-size: 47px;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+}
+.intro h3 span{
+    color: #29c2a9
+}
+.intro h2{
+    color: white;
+    font-size: 42px;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+}
+.intro h1{
+    color: #efa9a9;
+    font-size: 61px;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+}
+.intro img{
+    border: 5px solid white;
+    border-radius: 10px;
+}
+.overlay{
+    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0));
+}
+.about h5{
+    text-align: left
+}

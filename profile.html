@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>profile page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="css/quizStyle.css" />
+    <link rel="stylesheet" type="text/css" href="css/profile.css" />
+
+    <link rel="stylesheet" href="fontawesome-free-5.8.1-web/css/all.css" />
+    <link rel="stylesheet" href="css/animate.css">
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+
+ 
+</head>
+<body>
+    <!--header-->
+  <header>
+    <div class="container-fluid">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar bg-light pt-0 ">
+                <a class="navbar-brand" href="Quiz.html">learn <span>& win</span></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon">menu</span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-md-center" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                            <li class="nav-item">
+                                    <a class="nav-link" href="quiz.html">Home</a>
+                                </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="profile.html" id="profileLink">Profile</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                                <a class="nav-link" id="loginOutModalBtn">LogOut</a>
+                            </li>
+
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+  </header>
+
+    <!--intro-->
+    <section class="intro" id="intro">
+            <div class="overlay">
+                <div class="container">
+                    <div class="row">
+                        <div class="col text-center">
+                            <h3>
+                                Welcome to learn<span> & win</span>
+                            </h3>
+                            <h2 id="Name"></h2>
+                            <img src="" id="profileImg" alt="m" width="150px">                          
+                        </div>
+        
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!--about us-->
+    <section class="about" id="about">
+            <div class="container">
+                        <h2>Information about you</h2>
+                    <div class="row footerabout">
+                            <div class="col-md-4 col-sm-12">
+                                   <img src="" class="img-fluid" id="userImage" alt="" width="250px">
+                                                     
+                                     </div>
+                        <div class="col-md-4 col-sm-12 info">
+                                <h5>Your ID :</h5>
+                                <p id="userID"></p>
+                                <h5>your full name :</h5>
+                                <p id="userName"></p>
+                                <h5>your Address :</h5>
+                                <p id="userAddress"></p>
+                                                 
+                                 </div>
+                        <div class="col-md-4 col-sm-12 info">
+                                <h5>Your Email :</h5>
+                                <p id="userMail"></p>
+                                <h5>your password :</h5>
+                                <p id="userPassword"></p>
+                                <h5>your Phone number :</h5>
+                                <p id="userPhone"></p>
+                        </div>
+                    </div>
+            </div>
+        </section>
+    <!--Popular Courses-->
+    <section class="courses">
+    <div class="container">
+        <h2>Popular Courses</h2>
+            <div class="row">
+                <!--first pic-->
+                <div class="col-md-3 col-sm-6 rotate">
+                        <div class="flipCard">
+                            <div class="FrontDiv">
+                                    <img src="imgs/pexels1.jpeg" class="img-fluid" />
+                            </div>
+                            <div class="BackDiv">
+                                    <div class="text-center">
+                                            <i class="fas fa-shield-alt"></i>
+                                            <h4>Security</h4>
+                                            <p>Cura bitur eui</p>
+                                        </div>
+                            </div>
+                    </div>
+                    </div>
+                    <!--second pic-->
+                    <div class="col-md-3 col-sm-6 rotate">
+                        <div class="flipCard">
+                            <div class="FrontDiv">
+                                    <img src="imgs/pexels2.jpeg" class="img-fluid" />
+                            </div>
+                            <div class="BackDiv">
+                                    <div class="text-center">
+                                            <i class="fas fa-database"></i>
+                                            <h4>Database</h4>
+                                            <p>Cura bitur eui</p>
+                                        </div>
+                            </div>
+                    </div>
+                    </div>
+                    <!--third pic-->
+                    <div class="col-md-3 col-sm-6 rotate">
+                            <div class="flipCard">
+                                <div class="FrontDiv">
+                                        <img src="imgs/pexels3.jpeg" class="img-fluid" />
+                                </div>
+                                <div class="BackDiv">
+                                        <div class="text-center">
+                                                <i class="fab fa-css3-alt"></i>
+                                                <h4>CSS</h4>
+                                                <p>Cura bitur eui</p>
+                                            </div>
+                                </div>
+                        </div>
+                        </div>
+                    <!--fourth pic-->
+                    <div class="col-md-3 col-sm-6 rotate">
+                            <div class="flipCard">
+                                <div class="FrontDiv">
+                                        <img src="imgs/pexels4.jpeg" class="img-fluid" />
+                                </div>
+                                <div class="BackDiv">
+                                        <div class="text-center">
+                                                <i class="fas fa-code-branch"></i>
+                                                <h4>Programming</h4>
+                                                <p>Cura bitur eui</p>
+                                            </div>
+                                </div>
+                        </div>
+                        </div>
+                </div>
+
+    </div>
+</section>
+    <!--my school-->
+    <section class="SCHOOL">
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2 col-sm-6 myschool">
+                    <h3>Navigation</h3>
+                    <ul class="list-unstyled">
+                            <li>index</li>
+                            <li>about us</li>
+                            <li>what we do?</li>
+                            <li>our gallary</li>
+                    </ul>
+                </div>
+                <div class="col-md-2 col-sm-6 myschool">
+                    <h3>Some More</h3>
+                    <ul class="list-unstyled">
+                            <li>apply nom</li>
+                            <li>our events</li>
+                            <li>popular courses</li>
+                    </ul>
+                </div>
+                <div class="col-md-2 col-sm-6 myschool">
+                    <h3>Get In Touch</h3>
+                    <ul class="list-unstyled">
+                            <li>+01(24)8543 8088</li>
+                            <li>info @examle.com</li>
+                    </ul>
+
+                </div>
+                <div class="col-md-2 col-sm-6">
+                        <ul class="list-unstyled lst">
+                                <li>our satisfication</li>
+                                <li>log in</li>
+                                <li>register</li>
+                                <li>contact us</li>
+                        </ul>
+                </div>
+                <div class="col-md-2 col-sm-6">
+                    <h1>Learn <span>& win</span></h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <!--footer-->
+    <footer class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <p>©2019 Learn & win. All Rights Reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>new WOW().init();</script>
+    <script src="js/QuizHome.js"></script>
+
+
+</body>
+</html>
